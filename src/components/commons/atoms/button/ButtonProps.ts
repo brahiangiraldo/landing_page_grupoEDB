@@ -1,4 +1,4 @@
-export interface IButton {
+export interface ButtonProps {
   text: string
   color: string
 }

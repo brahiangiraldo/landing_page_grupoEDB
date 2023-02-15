@@ -1,6 +1,6 @@
-import { IButton } from './IButton'
+import { ButtonProps } from './ButtonProps'
 
-const Button = ({ text, color }: IButton) => {
+const Button = ({ text, color }: ButtonProps) => {
   return (
     <div>Button</div>
   )
