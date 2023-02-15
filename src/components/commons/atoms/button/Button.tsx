@@ -1,8 +1,10 @@
-import { ButtonProps } from './ButtonProps'
+import { ButtonProps } from './ButtonProps';
+import './button.scss'
 
-const Button = ({ text, color }: ButtonProps) => {
+const Button = ({ text, txtColor, onClick, bgColor, width, height }: ButtonProps) => {
   return (
-    <div>Button</div>
+    <button className='container' onClick={ onClick }>{ text }</button>
+
   )
 }
 
