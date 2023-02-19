@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import IconHouse from './IconHouse'
 
 export default {
-  title: 'Atoms/Icons/IconHouse',
+  title: 'Commons/Atoms/Icons/IconHouse',
   component: IconHouse
 } as ComponentMeta<typeof IconHouse>
 

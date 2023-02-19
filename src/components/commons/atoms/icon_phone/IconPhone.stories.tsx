@@ -3,7 +3,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import IconPhone from './IconPhone'
 
 export default {
-  title: 'Atoms/Icons/IconPhone',
+  title: 'Commons/Atoms/Icons/IconPhone',
   component: IconPhone
 } as ComponentMeta<typeof IconPhone>
 

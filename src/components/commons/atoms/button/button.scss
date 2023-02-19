@@ -1,6 +1,6 @@
-@import "../../../../styles/colors.scss";
+@import "../../../../styles/colors";
 
 .container {
-  background: $ligth_blue;
+  background: colors.$ligth_blue;
   border-radius: 46px;
 }

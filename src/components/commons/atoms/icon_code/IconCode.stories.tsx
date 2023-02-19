@@ -4,7 +4,7 @@ import IconCode from './IconCode';
 
 
 export default {
-  title: 'Atoms/Icons/IconCode',
+  title: 'Commons/Atoms/Icons/IconCode',
   component: IconCode
 } as ComponentMeta<typeof IconCode>
 

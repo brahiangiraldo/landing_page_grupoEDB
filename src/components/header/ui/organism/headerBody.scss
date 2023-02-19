@@ -1,0 +1,27 @@
+.headerBodyContainer{
+  width: 100%;
+  height: calc(100% - 149px);
+  background-image: url('../../../../assets/headerImg.png');
+  background-attachment: fixed;
+  position: relative;
+}
+
+.headerWaves{
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+.messageContainer{
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p{
+    text-align: justify;
+  }
+}

@@ -3,7 +3,7 @@ import IconDevices from './IconDevices';
 
 
 export default {
-  title: 'Atoms/Icons/IconDevices',
+  title: 'Commons/Atoms/Icons/IconDevices',
   component: IconDevices
 } as ComponentMeta<typeof IconDevices>
 

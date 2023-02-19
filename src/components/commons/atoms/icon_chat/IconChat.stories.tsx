@@ -5,7 +5,7 @@ import IconChat from './IconChat';
 
 
 export default {
-  title: 'Atoms/Icons/IconChat',
+  title: 'Commons/Atoms/Icons/IconChat',
   component: IconChat
 } as ComponentMeta<typeof IconChat>
 

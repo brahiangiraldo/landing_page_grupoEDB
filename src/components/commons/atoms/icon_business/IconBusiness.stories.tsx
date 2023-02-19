@@ -3,7 +3,7 @@ import IconBusiness from './IconBusiness'
 
 
 export default {
-  title: 'Atoms/Icons/IconBusiness',
+  title: 'Commons/Atoms/Icons/IconBusiness',
   component: IconBusiness
 } as ComponentMeta<typeof IconBusiness>
 

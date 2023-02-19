@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import IconPointer from './IconPointer';
 
 export default {
-  title: 'Atoms/Icons/IconPointer',
+  title: 'Commons/Atoms/Icons/IconPointer',
   component: IconPointer
 } as ComponentMeta<typeof IconPointer>
 

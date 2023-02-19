@@ -3,7 +3,7 @@ import IconFinance from './IconFinance';
 
 
 export default {
-  title: 'Atoms/Icons/IconFinance',
+  title: 'Commons/Atoms/Icons/IconFinance',
   component: IconFinance
 } as ComponentMeta<typeof IconFinance>
 
