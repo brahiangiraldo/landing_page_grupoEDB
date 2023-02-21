@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic --project-token=d1fb435d0119 --exit-zero-on-changes"
   },
   "dependencies": {
     "classnames": "^2.3.2",
@@ -31,6 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@vitejs/plugin-react": "^3.1.0",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.17.0",
     "eslint": "^8.34.0",
     "eslint-config-standard-with-typescript": "^34.0.0",
     "eslint-import-resolver-node": "^0.3.7",
