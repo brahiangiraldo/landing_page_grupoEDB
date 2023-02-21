@@ -10,7 +10,7 @@ const Banner = () => {
           We are a company with experience in the different existing business models in
           the technological, financial, administrative and creative fields. Let's revolutionize the industry together!
         </p>
-        <button>Read more. This is custom buttom</button>
+        <button>Read more</button>
       </section>
     </div>
   )
