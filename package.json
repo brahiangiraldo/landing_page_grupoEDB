@@ -10,7 +10,7 @@
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "chromatic --project-token=d1fb435d0119 --exit-zero-on-changes"
+    "chromatic": "chromatic --project-token=d1fb435d0119"
   },
   "dependencies": {
     "classnames": "^2.3.2",
