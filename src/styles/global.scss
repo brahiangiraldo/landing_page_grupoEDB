@@ -1,9 +1,11 @@
 @use './colors';
+
 //Background templates
 .bgPrimary {
-  background: colors.$primary400;
+  background: colors.$blue;
 }
-.title4{
+
+.title4 {
   font-size: 36px;
   font-family: 'Inter';
   font-style: normal;

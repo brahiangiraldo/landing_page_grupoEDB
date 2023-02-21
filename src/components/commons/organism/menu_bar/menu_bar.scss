@@ -1,15 +1,15 @@
-
 @use '../../../../styles/colors';
 
-.menuBar{
+.menuBar {
   width: 100%;
   height: 149px;
-  background: colors.$primary400;
+  background: colors.$blue;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 3fr;
 }
-.logoMenuBar{
+
+.logoMenuBar {
   display: grid;
   place-items: center;
   font-family: 'Inter';
@@ -19,7 +19,8 @@
   line-height: 40px;
   color: colors.$white;
 }
-.optionsMenuBar{
+
+.optionsMenuBar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -27,6 +28,7 @@
   padding: 0px 74px;
   justify-content: flex-end;
   align-content: center;
+
   a {
     text-decoration: none;
     color: colors.$white;

@@ -1,6 +1,27 @@
 @use "../../../../styles/colors";
 
-.container {
-  background: colors.$primary400;
+.button {
+  background-color: colors.$blue;
+  font-size: 30px;
+  padding: 1px 2px;
+  border: 5px solid rgb(34, 45, 202);
   border-radius: 46px;
+  width: 320px;
+  height: 77px;
+  cursor: pointer;
+}
+
+.button-small {
+  @extend .button;
+  height: colors.$button-small;
+}
+
+.button-medium {
+  @extend .button;
+  height: colors.$button-medium;
+}
+
+.button-large {
+  @extend .button;
+  height: colors.$button-large;
 }
