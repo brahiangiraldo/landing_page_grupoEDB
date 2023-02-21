@@ -1,6 +1,7 @@
 import Button from './Button'
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 
+
 export default {
   title: 'Atoms/Button',
   component: Button
@@ -9,8 +10,9 @@ export default {
 const component: ComponentStory<typeof Button> = (args) => <Button { ...args } />
 export const button = component.bind({})
 button.args = {
-  text: 'Hola mundo',
-  txtColor: '#000fff',
-  bgColor: 'blue',
-  onClick: () => { }
+  width: 100,
+  height: 100,
+  text: 'hola mundo',
+  txtColor: 'white',
+  bgColor: 'black',
 }

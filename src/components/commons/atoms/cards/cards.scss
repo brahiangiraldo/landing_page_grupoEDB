@@ -1,0 +1,18 @@
+.card {
+  border: 1px solid blue;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  width: 320px;
+  height: auto;
+
+}
+
+.card__content {
+
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+}

@@ -1,9 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import IconChat from './IconChat';
 
-
-
-
 export default {
   title: 'Atoms/Icons/IconChat',
   component: IconChat

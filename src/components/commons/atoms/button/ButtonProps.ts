@@ -5,5 +5,5 @@ export interface ButtonProps {
   bgColor: ColorsType
   width: number
   height: number
-  onClick: () => void
+
 }
