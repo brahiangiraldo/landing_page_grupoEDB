@@ -12,7 +12,7 @@ export const button = component.bind({})
 button.args = {
   width: 100,
   height: 100,
-  text: 'hola mundo',
+  text: 'Read More',
   txtColor: 'white',
   bgColor: 'black',
 }
