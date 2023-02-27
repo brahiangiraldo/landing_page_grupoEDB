@@ -1,18 +1,21 @@
 @use '../../../../styles/colors';
 
-.containerResume{
+.containerResume {
   width: 469px;
+
 }
+
 .resumeTitle {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 36px;
   line-height: 44px;
   color: colors.$black;
 }
+
 .resumeBody {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 21px;

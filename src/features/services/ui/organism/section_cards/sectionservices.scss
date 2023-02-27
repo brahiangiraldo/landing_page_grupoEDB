@@ -1,5 +1,5 @@
 .section-services-container {
-  gap: 20px;
+  gap: 10px;
   max-width: 600px;
   display: flex;
   flex-direction: row;
@@ -9,6 +9,7 @@
 
 .cardPadding {
   //parametros de la cards
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -21,6 +22,7 @@
 
 .title {
   //parametros del titulo
+
   text-align: center;
   width: 429px;
   font-family: 'Inter';
