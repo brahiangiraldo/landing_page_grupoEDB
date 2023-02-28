@@ -1,9 +1,26 @@
-.grid-container {
-  max-width: 600px;
+.section {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.image-container {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-container {
+  padding-top: 100px;
+}
+
+
+
+.grid-container {
+  max-width: 550px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .textTitle {
@@ -19,4 +36,14 @@
   line-height: 197.02%;
   /* or 41px */
   color: rgba(0, 0, 0, 0.53);
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }

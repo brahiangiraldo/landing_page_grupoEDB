@@ -6,7 +6,6 @@
   font-size: 29px;
   line-height: 35px;
   color: #92AEEB;
-  width: 256px;
   height: 37px;
   text-align: center;
   gap: 10px
@@ -24,6 +23,11 @@
   line-height: 197.02%;
   /* or 37px */
   color: #000000;
-  text-align: center;
+  text-align: left;
 
+}
+
+.container {
+  width: 150px;
+  padding: 10px;
 }
