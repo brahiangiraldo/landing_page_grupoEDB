@@ -1,7 +1,8 @@
 
+import './sectionInformation.scss'
 import Button from '../../../../commons/atoms/button/Button'
 import Resume from '../../../../commons/molecules/resume/Resume'
-import './sectioninformation.scss'
+
 
 export const SectionInformation = () => {
   return (

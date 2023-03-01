@@ -2,10 +2,11 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { SectionInformation } from './SectionInformation';
 
+
 export default {
-  title: 'Services/Organism/SectionServices',
+  title: 'Services/Organism/SectionInformation',
   component: SectionInformation
 
 } as ComponentMeta<typeof SectionInformation>
 const component: ComponentStory<typeof SectionInformation> = (args) => <SectionInformation />
-export const sectioninformation = component.bind({})
+export const sectionInformation = component.bind({})

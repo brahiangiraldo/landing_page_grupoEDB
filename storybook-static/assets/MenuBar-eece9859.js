@@ -1,2 +1,0 @@
-var s=Object.defineProperty;var o=(t,e)=>s(t,"name",{value:e,configurable:!0});import{j as n,a as r}from"./jsx-runtime-e8f5a910.js";const c=o(()=>n("section",{className:"menuBar",children:[r("section",{className:"logoMenuBar",children:"GRUPO EDB"}),r("section",{className:"optionsMenuBar",children:[{text:"Home",redirecTo:"#"},{text:"About",redirecTo:"#"},{text:"Services",redirecTo:"#"},{text:"Location",redirecTo:"#"}].map(e=>r("a",{href:e.redirecTo,children:e.text}))})]}),"MenuBar"),m=c;export{m as M};
-//# sourceMappingURL=MenuBar-eece9859.js.map

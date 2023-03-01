@@ -1,2 +1,0 @@
-var i=Object.defineProperty;var r=(a,s)=>i(a,"name",{value:s,configurable:!0});import{a as o}from"./jsx-runtime-e8f5a910.js";const e=r(({image:a})=>o("div",{className:"containerImg",children:o("img",{src:a})}),"ImageShadow"),m=e;try{e.displayName="ImageShadow",e.__docgenInfo={description:"",displayName:"ImageShadow",props:{image:{defaultValue:null,description:"",name:"image",required:!0,type:{name:"string"}}}}}catch{}const n="/assets/img1-dbf1d0af.png";export{m as I,n as i};
-//# sourceMappingURL=img1-832ecbb5.js.map
