@@ -15,9 +15,9 @@ const ChooseUs = () => {
           <SectionImagen image={ img3 } />
         </div>
         <div className='text-container'>
-          <span className='textTitle'>
+          <section className='textTitle'>
             Choose Us
-          </span>
+          </section>
           <Resume
             body="nuestra empresa soluciona las necesidades actuales que
           surgen con la nueva era digital posicionándonos como una empresa

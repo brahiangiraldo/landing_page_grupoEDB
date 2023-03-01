@@ -7,11 +7,11 @@
 .image-container {
   flex-basis: 60%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .text-container {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 
@@ -33,7 +33,8 @@
   font-style: normal;
   font-weight: 700;
   font-size: 21px;
-  line-height: 197.02%;
+  padding-bottom: 25px;
+
   /* or 41px */
   color: rgba(0, 0, 0, 0.53);
 }
