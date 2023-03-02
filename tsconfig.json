@@ -20,21 +20,21 @@
     "jsx": "react-jsx",
     "baseUrl": "./src",
     "paths": {
-      "@assets/*": [
-        "assets/*"
-      ],
-      "@features/*": [
-        "features/*"
-      ],
-      "@about/*": [
-        "features/about/*"
-      ],
-      "@commons/*": [
-        "features/commons/*"
-      ],
-      "@header/*": [
-        "features/header/*"
-      ],
+      // "@assets/*": [
+      //   "assets/*"
+      // ],
+      // "@features/*": [
+      //   "features/*"
+      // ],
+      // "@about/*": [
+      //   "features/about/*"
+      // ],
+      // "@commons/*": [
+      //   "features/commons/*"
+      // ],
+      // "@header/*": [
+      //   "features/header/*"
+      // ],
     },
     "esModuleInterop": true
   },

@@ -6,7 +6,7 @@ import SectionImagen from '../section_imagen/SectionImagen';
 import img3 from '../../../../../assets/img3.png'
 
 
-const ChooseUs = () => {
+const eUs = () => {
   return (
 
     <>
@@ -16,7 +16,7 @@ const ChooseUs = () => {
         </div>
         <div className='text-container'>
           <section className='textTitle'>
-            Choose Us
+            e Us
           </section>
           <Resume
             body="nuestra empresa soluciona las necesidades actuales que
@@ -50,4 +50,4 @@ const ChooseUs = () => {
   )
 }
 
-export default ChooseUs
+export default eUs
