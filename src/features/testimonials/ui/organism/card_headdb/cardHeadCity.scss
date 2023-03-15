@@ -1,0 +1,36 @@
+.cardhead {
+  box-sizing: border-box;
+  width: 329px;
+  height: auto;
+  border: 25px solid #FFFFFF;
+  border-radius: 28px 28px 0px 0px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: white;
+
+
+  &-image {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.font {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  line-height: 197.02%;
+  /* or 33px */
+  color: rgba(55, 55, 55, 0.76);
+}
+
+.cardhead-title {
+  display: flex;
+  align-items: center;
+
+}

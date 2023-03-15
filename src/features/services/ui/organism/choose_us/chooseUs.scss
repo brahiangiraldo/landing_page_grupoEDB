@@ -1,50 +1,50 @@
 .section {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 2rem;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2rem;
 }
 
 .image-container {
-  flex-basis: 60%;
-  display: flex;
-  justify-content: center;
+	flex-basis: 60%;
+	display: flex;
+	justify-content: center;
 }
 
 .text-container {
-  padding-top: 50px;
+	padding-top: 50px;
 }
 
 
 
 .grid-container {
-  max-width: 550px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+	max-width: 550px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 }
 
 .textTitle {
-  width: 476px;
-  height: 41px;
-  left: 163px;
-  top: 153px;
+	width: 476px;
+	height: 41px;
+	left: 163px;
+	top: 153px;
 
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 21px;
-  padding-bottom: 25px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21px;
+	padding-bottom: 25px;
 
-  /* or 41px */
-  color: rgba(0, 0, 0, 0.53);
+	/* or 41px */
+	color: rgba(0, 0, 0, 0.53);
 }
 
 @media (max-width: 600px) {
-  .grid-container {
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+	.grid-container {
+		width: 100px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+	}
 }

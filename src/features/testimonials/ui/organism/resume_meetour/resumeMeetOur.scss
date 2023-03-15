@@ -1,0 +1,63 @@
+@font-face {
+	src: url('../../../../../assets/kapakana-regular.ttf');
+	font-family: 'kapakana';
+}
+
+.containerResumemeet {
+	text-align: center;
+	padding: 38px 86px;
+}
+
+.resumeTitlemeet {
+	width: 930px;
+	height: 74px;
+	left: 837px;
+	top: 5221px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 197.02%;
+	/* or 83px */
+	letter-spacing: 0.01em;
+	color: white;
+
+
+
+}
+
+.resumeBodymeet {
+	left: 58.49%;
+	right: 21.75%;
+	top: 64.01%;
+	bottom: 32.96%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 197.02%;
+	/* or 37px */
+	color: white;
+	text-align: center;
+
+}
+
+.subtitlemeet {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 197.02%;
+	/* or 43px */
+	color: white;
+	text-align: center;
+}
+
+.meetfinal {
+	font-family: 'kapakana';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 47px;
+	line-height: 197.02%;
+	color: white;
+}

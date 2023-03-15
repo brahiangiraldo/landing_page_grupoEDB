@@ -1,4 +1,6 @@
 import './imageShadow.scss'
+import { ImageShadowProps } from './ImageShadowProps'
+
 
 
 const ImageShadow = ({ image }: ImageShadowProps) => {

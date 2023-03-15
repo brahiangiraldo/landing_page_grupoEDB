@@ -1,0 +1,24 @@
+.card {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 700px;
+  height: 120px;
+  background: rgba(180, 209, 235, 0.32);
+  border: 6px solid #92AEEB;
+  backdrop-filter: blur(110.5px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 11px;
+}
+
+.paragr {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
