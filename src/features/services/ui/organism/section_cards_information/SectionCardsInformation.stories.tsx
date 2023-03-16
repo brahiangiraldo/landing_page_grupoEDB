@@ -4,9 +4,9 @@ import SectionCardsInformation from './SectionCardsInformation';
 
 
 export default {
-  title: 'Services/Organism/SectionCardsInformation',
-  component: SectionCardsInformation
+	title: 'Services/Organism/SectionCardsInformation',
+	component: SectionCardsInformation
 
 } as ComponentMeta<typeof SectionCardsInformation>
 const component: ComponentStory<typeof SectionCardsInformation> = (args) => <SectionCardsInformation />
-export const sectioncardsinformation = component.bind({})
+export const sectionCardsInformation = component.bind({})

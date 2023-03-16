@@ -3,8 +3,8 @@ import Testimonial from './Testimonial';
 
 
 export default {
-  title: 'Testimonials/Organism/Page/Testimonial',
-  component: Testimonial
+	title: 'Services/Organism/Page/Testimonial',
+	component: Testimonial
 
 } as ComponentMeta<typeof Testimonial>
 const component: ComponentStory<typeof Testimonial> = (args) => <Testimonial />

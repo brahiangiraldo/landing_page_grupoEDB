@@ -2,7 +2,7 @@
 import Resume from '../../../../commons/molecules/resume/Resume'
 import ResumeNum from '../../moleculas/resumenum/ResumeNum'
 import './chooseUs.scss'
-import SectionImagen from '../section_imagen/SectionImagen';
+import SectionImagen from '../../moleculas/section_imagen/SectionImagen'
 import img3 from '../../../../../assets/img3.png'
 
 

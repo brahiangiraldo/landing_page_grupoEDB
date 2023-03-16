@@ -1,11 +1,13 @@
-import ResumeHead from '../../../testimonials/ui/organism/resume_head/ResumeHead'
+// import ResumeHead from '../../../testimonials/ui/organism/resume_head/ResumeHead'
+import ResumeHead from '../../../places/moleculas/resume_head/ResumeHead'
 import Dubai from '../../../../assets/Dubai.png'
 import Medellin from '../../../../assets/Medellin.png'
 import Mexico from '../../../../assets/Mexico.png'
 import Rusia from '../../../../assets/Rusia.png'
 import Torre from '../../../../assets/Torre.png'
 import España from '../../../../assets/España.png'
-import CardHeadCity from '../../../testimonials/ui/organism/card_headdb/CardHeadCity'
+// import CardHeadCity from '../../../testimonials/ui/organism/card_headdb/CardHeadCity'
+import CardHeadCity from '../../../places/moleculas/card_headdb/CardHeadCity'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"

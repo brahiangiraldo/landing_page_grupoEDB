@@ -1,8 +1,8 @@
 import './testimonial.scss'
 import ImageGroup from '../moleculas/image_group/ImageGroup'
-import ResumeGroup from '../organism/resume_group/ResumeGroup'
+import ResumeGroup from '../moleculas/resume_group/ResumeGroup'
 import img4 from '../../../../assets/img4.png'
-import CardGroup from '../organism/card_group/CardGroup'
+import CardGroup from '../moleculas/card_group/CardGroup'
 
 const Testimonial = () => {
 	return (
