@@ -6,14 +6,14 @@ import './resumeHead.scss'
 
 
 const ResumeHead = ({ title, body }: ResumeHeadProps) => {
-  return (
-    <section className='containerResume'>
-      <span className='resumeTitle'>{ title }</span>
-      <p className='resumeBody'>
-        { body }
-      </p>
-    </section>
-  )
+	return (
+		<section className='containersResume'>
+			<span className='resumesTitle'>{ title }</span>
+			<p className='resumesBody'>
+				{ body }
+			</p>
+		</section>
+	)
 }
 
 export default ResumeHead;

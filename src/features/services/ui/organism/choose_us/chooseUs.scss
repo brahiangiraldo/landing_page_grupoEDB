@@ -17,7 +17,7 @@
 
 
 .grid-container {
-	max-width: 550px;
+	max-width: 600px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
@@ -26,25 +26,132 @@
 .textTitle {
 	width: 476px;
 	height: 41px;
-	left: 163px;
-	top: 153px;
-
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 21px;
 	padding-bottom: 25px;
-
-	/* or 41px */
 	color: rgba(0, 0, 0, 0.53);
 }
 
-@media (max-width: 600px) {
-	.grid-container {
-		width: 100px;
-		display: flex;
+@media (min-width: 320px) and (max-width: 450px) {
+	.section {
 		flex-direction: column;
-		flex-wrap: wrap;
+	}
+
+	.image-container {
+		flex-basis: 100%;
 		align-items: center;
+	}
+
+	.text-container {
+		padding-top: 25px;
+		padding: 8px;
+
+	}
+
+	.grid-container {
+		max-width: 90%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+
+	}
+
+	.textTitle {
+		width: 90%;
+		font-size: 20px;
+		padding-bottom: 10px;
+		text-align: center;
+		padding: 2px;
+	}
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+	.section {
+		flex-direction: column;
+	}
+
+	.image-container {
+		flex-basis: 100%;
+	}
+
+	.text-container {
+		padding-top: 25px;
+	}
+
+	.grid-container {
+		max-width: 100%;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+
+
+	}
+
+	.textTitle {
+		width: 100%;
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.section {
+		flex-direction: row;
+		flex-wrap: wrap-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.image-container {
+		flex-basis: 45%;
+		margin-right: 50px;
+	}
+
+	.text-container {
+		flex-basis: 45%;
+		padding-top: 0;
+	}
+
+	.grid-container {
+		max-width: 100%;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
+
+	.textTitle {
+		width: 100%;
+		font-size: 21px;
+		padding-bottom: 25px;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.section {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.image-container {
+		flex-basis: 50%;
+		margin-right: 50px;
+	}
+
+	.text-container {
+		flex-basis: 50%;
+		padding-top: 0;
+	}
+
+	.grid-container {
+		max-width: 600px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
+
+	.textTitle {
+		width: 476px;
+		font-size: 21px;
+		padding-bottom: 25px;
 	}
 }

@@ -1,24 +1,57 @@
 @use '../../../../styles/colors';
 
-.containerResume {
-  width: 469px;
-
+.containertResume {
+	width: 469px;
 }
 
-.resumeTitle {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 44px;
-  color: colors.$black;
+.resumetTitle {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 44px;
+	color: colors.$black;
 }
 
-.resumeBody {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 21px;
-  line-height: 197.02%;
-  color: #343434;
+.resumetBody {
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 197.02%;
+	color: #343434;
+}
+
+@media (max-width: 450px) {
+	.containertResume {
+		width: 370px;
+	}
+
+	.resumetTitle {
+		color: aquamarine;
+		padding: 22px;
+		text-align: center;
+
+	}
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+	.containertResume {
+		width: 630px;
+
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.containertResume {
+		width: 700px;
+
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.containertResume {
+		width: 1200px;
+
+	}
 }

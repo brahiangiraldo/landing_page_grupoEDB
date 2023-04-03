@@ -3,7 +3,7 @@ import Testimonial from './Testimonial';
 
 
 export default {
-	title: 'Services/Organism/Page/Testimonial',
+	title: 'Testimonials/Page/Testimonial',
 	component: Testimonial
 
 } as ComponentMeta<typeof Testimonial>

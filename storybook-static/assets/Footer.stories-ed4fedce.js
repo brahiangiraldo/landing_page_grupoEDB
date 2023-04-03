@@ -1,0 +1,18 @@
+var s=Object.defineProperty;var t=(o,l)=>s(o,"name",{value:l,configurable:!0});import{j as r,a as e}from"./jsx-runtime-189c9bee.js";import"./index-d7929fe6.js";import"./es.object.get-own-property-descriptor-1a76aaf5.js";const n=t(({color:o})=>r("footer",{className:"footer",children:[e("div",{children:e("svg",{width:"1448",height:"418",viewBox:"0 0 1448 418",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:e("path",{"fill-rule":"evenodd","clip-rule":"evenodd",d:"M0 0L40.2222 47C112.448 132.5 160.889 186 241.333 194C321.778 201 402.222 124 482.667 101C563.111 78 643.556 109 724 147C804.444 186 884.889 232 965.333 240C1045.78 248 1104.24 254 1206.67 211.5C1324.99 167 1394.21 110 1434.44 79L1448 65.5V418H1407.78C1367.56 418 1287.11 418 1206.67 418C1126.22 418 1045.78 418 965.333 418C884.889 418 804.444 418 724 418C643.556 418 563.111 418 482.667 418C402.222 418 321.778 418 241.333 418C160.889 418 80.4444 418 40.2222 418H0V0Z",fill:o})})}),e("div",{className:"back",children:r("div",{className:"columns",children:[e("span",{className:"fonttitle",children:"Medellin, Colombia 2023"}),e("p",{children:"ofrece servicios, para diferentes areas de finanzas, marketing, desarrollo. Somos una alianza entre muchas marcas destinadas a suplir tus necesidades."}),e("span",{className:"fonttitle",children:"Trabaja con nosotros"}),e("p",{children:"Ofrecemos empleos en diferentes ramas donde priorizamos la salud mental de los empleados, brindamos la mejor experiencia para que te sientas comodo"}),r("div",{className:"containers",children:[r("svg",{width:"62",height:"47",viewBox:"0 0 62 47",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[e("ellipse",{cx:"7.6887",cy:"7.83337",rx:"6.82737",ry:"7.83337",fill:"#4374DD"}),e("rect",{x:"9.96484",y:"4.6582",width:"25.2182",height:"6.35138",fill:"#4374DD"}),e("ellipse",{cx:"39.3039",cy:"7.83337",rx:"6.82737",ry:"7.83337",fill:"#4374DD"}),e("ellipse",{cx:"23.5569",cy:"23.5004",rx:"6.82737",ry:"7.83337",fill:"#4374DD"}),e("rect",{x:"25.833",y:"20.3242",width:"25.2182",height:"6.35138",fill:"#4374DD"}),e("ellipse",{cx:"55.1731",cy:"23.5004",rx:"6.82737",ry:"7.83337",fill:"#4374DD"}),e("ellipse",{cx:"6.82737",cy:"39.1664",rx:"6.82737",ry:"7.83337",fill:"#4374DD"}),e("rect",{x:"9.10254",y:"35.9912",width:"25.2182",height:"6.35138",fill:"#4374DD"}),e("ellipse",{cx:"38.4426",cy:"39.1664",rx:"6.82737",ry:"7.83337",fill:"#4374DD"})]}),e("span",{className:"fontsubtitle",children:"GRUPO EDB"})]}),e("p",{children:"Contamos con expertos en cada área que trabajan juntos para ofrecer soluciones personalizadas y efectivas para mejorar la eficiencia la rentabilidad y crecimiento."})]})}),e("span",{className:"fonthead",children:"GRUPO EDB"})]}),"Footer"),a=n;try{n.displayName="Footer",n.__docgenInfo={description:"",displayName:"Footer",props:{color:{defaultValue:null,description:"",name:"color",required:!0,type:{name:"string"}}}}}catch{}const h={parameters:{storySource:{source:`import { ComponentMeta, ComponentStory } from '@storybook/react'
+import Footer from './Footer'
+
+
+
+export default {
+	title: 'Footer/Footer',
+	component: Footer
+} as ComponentMeta<typeof Footer>
+
+const component: ComponentStory<typeof Footer> = (args) => <Footer { ...args } />
+export const footer = component.bind({})
+footer.args = {
+	color: "#E7E9EB",
+
+}
+`,locationsMap:{footer:{startLoc:{col:49,line:11},endLoc:{col:81,line:11},startBody:{col:49,line:11},endBody:{col:81,line:11}}}}},title:"Footer/Footer",component:a},i=t(o=>e(a,{...o}),"component"),c=i.bind({});c.args={color:"#E7E9EB"};const y=["footer"];export{y as __namedExportsOrder,h as default,c as footer};
+//# sourceMappingURL=Footer.stories-ed4fedce.js.map

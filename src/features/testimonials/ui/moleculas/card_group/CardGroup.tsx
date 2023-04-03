@@ -8,7 +8,7 @@ const CardGroup = () => {
 
 	return (
 
-		<section className="card">
+		<section className="card2">
 
 			<p className="paragr">Excelente manera de como abordarón mi proyecto, los recomiendo </p>
 

@@ -1,13 +1,47 @@
-.containerImg {
+.containersImg {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
 
-  width: 701.52px;
-  height: 684.71px;
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	@media (min-width: 320px) and (max-width: 450px) {
+
+		.containersImg {
+			text-align: center;
+			padding: 2px;
+
+		}
 
 
+		img {
+			max-width: 100%;
+			align-items: center;
 
-  img {
+		}
+	}
 
-    height: 95%;
-  }
+	@media (min-width: 451px) and (max-width: 767px) {
+		img {
+			max-width: 80%;
 
+
+		}
+	}
+
+	@media (min-width: 768px) and (max-width: 1024px) {
+		img {
+			max-width: 70%;
+		}
+	}
+
+	@media (min-width: 1025px) and (max-width: 1280px) {
+		img {
+			max-width: 60%;
+		}
+	}
 }

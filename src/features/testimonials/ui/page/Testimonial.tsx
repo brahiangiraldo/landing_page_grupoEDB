@@ -7,7 +7,7 @@ import CardGroup from '../moleculas/card_group/CardGroup'
 const Testimonial = () => {
 	return (
 		<>
-			<section>
+			<section className='containerTestimonial'>
 				<ResumeGroup
 					title='Testimonials around the world'
 					body='Read the testimonials of our clients around the world. Meet the customers who have purchased our services.'

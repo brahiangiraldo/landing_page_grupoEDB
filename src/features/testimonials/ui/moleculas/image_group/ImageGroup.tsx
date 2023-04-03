@@ -4,11 +4,11 @@ import './imageGroup.scss'
 
 
 const ImageGroup = ({ image1 }: ImageGroupProps) => {
-  return (
-    <div className='containerImg'>
-      { <img src={ image1 } /> }
-    </div>
-  )
+	return (
+		<div className='container1Img'>
+			{ <img src={ image1 } /> }
+		</div>
+	)
 }
 
 export default ImageGroup;

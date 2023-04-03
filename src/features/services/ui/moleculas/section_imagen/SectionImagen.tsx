@@ -5,11 +5,11 @@ import { SectionImagenProps } from './SectionImagenProps'
 
 
 const SectionImagen = ({ image }: SectionImagenProps) => {
-  return (
-    <div className='containerImg'>
-      { <img src={ image } /> }
-    </div>
-  )
+	return (
+		<div className='containersImg'>
+			{ <img src={ image } /> }
+		</div>
+	)
 }
 
 export default SectionImagen

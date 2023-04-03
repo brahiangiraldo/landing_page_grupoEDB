@@ -6,7 +6,6 @@ import Mexico from '../../../../assets/Mexico.png'
 import Rusia from '../../../../assets/Rusia.png'
 import Torre from '../../../../assets/Torre.png'
 import España from '../../../../assets/España.png'
-// import CardHeadCity from '../../../testimonials/ui/organism/card_headdb/CardHeadCity'
 import CardHeadCity from '../../../places/moleculas/card_headdb/CardHeadCity'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
@@ -33,7 +32,7 @@ export const CardsLocation = () => {
 	}
 
 	return (
-		<div>
+		<div className='slick-container'>
 			<section>
 				<ResumeHead title='Know all our headquarters'
 					body='Get to know all our offices around the world. We work hand in hand with the best to offer you the best.' />

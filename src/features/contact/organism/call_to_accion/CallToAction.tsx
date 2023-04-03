@@ -14,7 +14,7 @@ const CallToAction = () => {
 	return (
 
 
-		<form onSubmit={ handleForm }>
+		<form onSubmit={ handleForm } className='form'>
 			<section className='form-container'>
 
 				<section className='fullname'>

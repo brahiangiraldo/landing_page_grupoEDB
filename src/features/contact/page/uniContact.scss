@@ -1,0 +1,47 @@
+$mobile: 412px;
+$tablet: 770px;
+$desktop: 1024px;
+$large-desktop: 1280px;
+
+.uniconnt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	margin-top: 4rem;
+	gap: 50px;
+
+	@media (max-width: $tablet) {
+		flex-direction: column;
+		margin-top: 2rem;
+		padding: 0 1rem;
+	}
+
+	@media (max-width: $mobile) {
+		flex-direction: column;
+		margin-top: 2rem;
+		padding: 0 1rem;
+	}
+
+	@media (max-width: $desktop) {
+		margin-top: 2rem;
+		padding: 0 1rem;
+	}
+
+	@media (max-width: $large-desktop) {
+		margin-top: 2rem;
+		padding: 0 1rem;
+	}
+}
+
+.call-to-action {
+	@media (max-width: $tablet) {
+		order: 2;
+	}
+}
+
+.map {
+	@media (max-width: $tablet) {
+		order: 1;
+	}
+}

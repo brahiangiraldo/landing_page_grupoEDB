@@ -1,5 +1,13 @@
+@media only screen and (max-width: 480px) {
+	.form-input {
+		width: 100%;
+	}
+}
+
+
 .form-container {
 	width: 482px;
+	max-width: 600px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -34,6 +42,8 @@
 	line-height: 197.02%;
 	/* or 35px */
 	color: #868686;
+
+
 
 }
 
