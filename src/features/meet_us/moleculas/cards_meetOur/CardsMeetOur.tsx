@@ -1,6 +1,3 @@
-
-
-// import ResumeProfessional from '../resume_Professional/ResumeProfessional';
 import './cardsMeetOur.scss'
 import { CardsMeetOurProps } from './CardsMeetOurProps'
 

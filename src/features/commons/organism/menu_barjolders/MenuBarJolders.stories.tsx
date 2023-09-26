@@ -1,5 +1,4 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-// import div from '../../../../assets/div.png'
 import MenuBarJolders from './MenuBarJolders';
 
 export default {
